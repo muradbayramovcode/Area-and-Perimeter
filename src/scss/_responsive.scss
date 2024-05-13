@@ -1,0 +1,49 @@
+@media only screen and (max-width: 500px) {
+    .areaCalculator {
+        width: 78%;
+        height: 500px;
+
+        h1 {
+            padding: 0 30px;
+            font-size: 30px;
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+  .areaCalculator {
+    width: 78%;
+    height: 500px;
+
+    h1 {
+        text-align: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .areaCalculator {
+    width: 78%;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .areaCalculator {
+    width: 600px;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .areaCalculator {
+    width: 600px;
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .areaCalculator {
+    width: 600px;
+    height: 500px;
+  }
+}

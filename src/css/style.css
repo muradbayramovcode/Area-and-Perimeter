@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(../img/math_pattern.jpg);
+  background-size: cover;
+}
+
+.areaCalculator {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  border: 2px solid #545454;
+  border-radius: 30px;
+  width: 600px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+}
+.areaCalculator h1 {
+  font-size: 40px;
+}
+.areaCalculator input {
+  width: 200px;
+  height: 30px;
+  outline: none;
+}
+.areaCalculator #height,
+.areaCalculator #width {
+  margin-bottom: 10px;
+}
+.areaCalculator .buttons {
+  display: flex;
+  flex-direction: column;
+}
+.areaCalculator .buttons button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.areaCalculator #area {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .areaCalculator {
+    width: 78%;
+    height: 500px;
+  }
+  .areaCalculator h1 {
+    padding: 0 30px;
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .areaCalculator {
+    width: 78%;
+    height: 500px;
+  }
+  .areaCalculator h1 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .areaCalculator {
+    width: 78%;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .areaCalculator {
+    width: 600px;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .areaCalculator {
+    width: 600px;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .areaCalculator {
+    width: 600px;
+    height: 500px;
+  }
+}
